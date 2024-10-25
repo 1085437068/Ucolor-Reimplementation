@@ -1,0 +1,5 @@
+1.这个项目需要准备数据，数据可以从lcy实现的算法中获取https://github.com/Li-Chongyi
+
+2.数据集准备：
+需要一个depth数据:在项目https://github.com/Li-Chongyi中，运行下面的代码进行获取深度图像
+Ucolor_final_model_corrected/Generalization of the Dark Channel Prior for Single/GDCP_Release/IR_GDCP.m
