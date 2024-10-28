@@ -3,3 +3,12 @@
 2.数据集准备：
 需要一个depth数据:在项目https://github.com/Li-Chongyi中，运行下面的代码进行获取深度图像
 Ucolor_final_model_corrected/Generalization of the Dark Channel Prior for Single/GDCP_Release/IR_GDCP.m
+
+3.新建虚拟环境pt112：python3.9 torch1.12.0 cuda11.3
+pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
+
+train的开始时间是20241028/22:00   epoch 10
+
+4.test能够运行成功
+
+5.train的时候，需要在config.yml中将图片尺寸设置为128x128，不然显存会爆
