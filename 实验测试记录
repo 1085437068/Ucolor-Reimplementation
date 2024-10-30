@@ -7,7 +7,7 @@ Ucolor_final_model_corrected/Generalization of the Dark Channel Prior for Single
 3.新建虚拟环境pt112：python3.9 torch1.12.0 cuda11.3
 pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
 
-train的开始时间是20241028/22:00   epoch 10
+train的开始时间是20241028/22:00   epoch 10 结束时间是2024102/22：55  大概10 epoch/h
 
 4.test能够运行成功
 
